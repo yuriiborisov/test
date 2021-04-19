@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0509fefc-e73e-460a-bb21-3f359db7221c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blackListProj/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blackListProj/blackListProject/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/blacklist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="92" column="57" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#2;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#3;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="108" selection-start-line="11" selection-start-column="108" selection-end-line="11" selection-end-column="108" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/blackclient_card.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="39" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>sidebar</find>
+      <find>prox</find>
+      <find>search</find>
+      <find>.ss-main .ss-multi-selected</find>
+      <find>.ss-main .ss-multi-selected .ss-values .ss-value</find>
+      <find>.add</find>
+      <find>prof</find>
+      <find>.ss-content .ss-list .ss-option:hover</find>
+      <find>#bla</find>
+      <find>comment</find>
+      <find>header_</find>
+      <find>comment_ite</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blackListProj/blackListProj/settings.py" />
+        <option value="$PROJECT_DIR$/blackListProj/blackListProj/urls.py" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/registration/logout.html" />
+        <option value="$PROJECT_DIR$/blackListProj/static/js/bgscript.js" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/blacklistApp/list_copy.html" />
+        <option value="$PROJECT_DIR$/blackListProj/static/js/bg/EasePack.js" />
+        <option value="$PROJECT_DIR$/blackListProj/static/js/bg/TweenLite.min.js" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/blacklistApp/bglines.html" />
+        <option value="$PROJECT_DIR$/blackListProj/static/css/bgcss.css" />
+        <option value="$PROJECT_DIR$/blackListProj/static/js/bg/mouseevents.js" />
+        <option value="$PROJECT_DIR$/blackListProj/static/css/preloader.css" />
+        <option value="$PROJECT_DIR$/blackListProj/blacklistApp/form.py" />
+        <option value="$PROJECT_DIR$/blackListProj/blacklistApp/forms.py" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/404.html" />
+        <option value="$PROJECT_DIR$/blackListProj/blackListProject/urls.py" />
+        <option value="$PROJECT_DIR$/blackListProj/blacklistApp/urls.py" />
+        <option value="$PROJECT_DIR$/blackListProj/blackListProject/wsgi.py" />
+        <option value="$PROJECT_DIR$/blackListProj/blacklistApp/admin.py" />
+        <option value="$PROJECT_DIR$/blackListProj/static/js/slimselect.js" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/blacklistApp/bclient_added.html" />
+        <option value="$PROJECT_DIR$/blackListProj/static/css/slimselect.css" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/blacklistApp/list.html" />
+        <option value="$PROJECT_DIR$/blackListProj/static/js/Scripts.js" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/blacklistApp/blackclient_card.html" />
+        <option value="$PROJECT_DIR$/blackListProj/static/css/style.css" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/blacklistApp/base.html" />
+        <option value="$PROJECT_DIR$/blackListProj/blacklistApp/models.py" />
+        <option value="$PROJECT_DIR$/blackListProj/templates/blacklistApp/blacklist.html" />
+        <option value="$PROJECT_DIR$/blackListProj/blacklistApp/views.py" />
+        <option value="$PROJECT_DIR$/blackListProj/blackListProject/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="120" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="darkcheck_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darkcheck_repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="darkcheck_repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darkcheck_repo" type="462c0819:PsiDirectoryNode" />
+              <item name="blackListProj" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BORISOV\Web\blackListApp\blackListProj\static\css" />
+      <recent name="D:\BORISOV\Web\blackListApp\blackListProj\static\js" />
+      <recent name="D:\BORISOV\Web\blackListApp\blackListProj\templates\blacklistApp" />
+      <recent name="D:\BORISOV\Web\blackListApp\blackListProj" />
+      <recent name="D:\BORISOV\Web\blackListApp\blackListProj\blacklistApp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0509fefc-e73e-460a-bb21-3f359db7221c" name="Default Changelist" comment="" />
+      <created>1582913007825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582913007825</updated>
+      <workItem from="1582913009245" duration="46000" />
+      <workItem from="1582913066765" duration="6008000" />
+      <workItem from="1582925652629" duration="632000" />
+      <workItem from="1583411975633" duration="40175000" />
+      <workItem from="1583487162670" duration="5285000" />
+      <workItem from="1583503421581" duration="9159000" />
+      <workItem from="1583542059463" duration="307000" />
+      <workItem from="1583677903250" duration="24561000" />
+      <workItem from="1583829664816" duration="2008000" />
+      <workItem from="1583917268359" duration="21571000" />
+      <workItem from="1584005030592" duration="33072000" />
+      <workItem from="1584046276561" duration="5546000" />
+      <workItem from="1584124099951" duration="6959000" />
+      <workItem from="1584227523112" duration="2000000" />
+      <workItem from="1584433534511" duration="2877000" />
+      <workItem from="1584883824764" duration="2564000" />
+      <workItem from="1585512668048" duration="1338000" />
+      <workItem from="1591969380124" duration="268000" />
+      <workItem from="1591970035367" duration="1639000" />
+      <workItem from="1591990297249" duration="572000" />
+      <workItem from="1592034242571" duration="1999000" />
+      <workItem from="1592131278644" duration="2475000" />
+      <workItem from="1592143478488" duration="1382000" />
+      <workItem from="1592417979217" duration="883000" />
+      <workItem from="1607029040546" duration="1120000" />
+      <workItem from="1610266109990" duration="55000" />
+      <workItem from="1618559958590" duration="895000" />
+      <workItem from="1618645015126" duration="196000" />
+      <workItem from="1618646512123" duration="1947000" />
+      <workItem from="1618853396645" duration="2168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="179707000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33355704" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46033993" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blackVENV/Lib/site-packages/hitcount/models.py" />
+    <entry file="file://$PROJECT_DIR$/blackVENV/Lib/site-packages/hitcount/views.py" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/img/pexels-photo-326314.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/img/hanika-56af-n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/img/fffg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/img/tabla-cortar-madera.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/img/temnyy-fon-tekstura-buka-hd.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/img/wp3489665.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/bgscript.js" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/animated-background/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/css/bgcss" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/list_copy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/bg/EasePack.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4813" selection-start-line="11" selection-start-column="4813" selection-end-line="11" selection-end-column="4813" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/bg/TweenLite.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24774" selection-start-line="11" selection-start-column="24774" selection-end-line="11" selection-end-column="24774" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/find_client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/bglines.html" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/maskedinput.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/css/CSS reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/bg/mouseevents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="8" selection-start-line="79" selection-start-column="16" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/css/bgcss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="6" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/registration/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blackListProject/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/css/tokenize2.min.css" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/tokenize2.min.js" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/package.json" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/slimselect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1000" column="44" selection-start-line="1000" selection-start-column="44" selection-end-line="1000" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="427" column="22" selection-start-line="427" selection-start-column="22" selection-end-line="427" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/css/slimselect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6066" selection-start-column="6066" selection-end-column="6066" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/js/Scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/css/preloader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/bclient_added.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="24" selection-start-line="57" selection-start-column="12" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14858">
+          <caret line="874" column="27" selection-start-line="874" selection-start-column="27" selection-end-line="874" selection-end-column="27" />
+          <folding>
+            <marker date="1584052064112" expanded="true" signature="9120:9466" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blackListProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getDataFromDB.php" />
+    <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blacklistApp/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/blackListProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="108" selection-start-line="11" selection-start-column="108" selection-end-line="11" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/blackclient_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blackListProj/templates/blacklistApp/blacklist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="92" column="57" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#2;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#3;n#svg#0;n#div#2;n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

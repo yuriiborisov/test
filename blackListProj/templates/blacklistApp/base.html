@@ -1,0 +1,66 @@
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+         <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+		 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+         <link rel="stylesheet" type="text/css" href="{% static 'css/bgcss.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/preloader.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/slimselect.css' %}">
+
+
+
+
+         <title>{% block title %}{% endblock %}</title>
+    </head>
+
+    <script>
+        new SlimSelect({
+  select: '#demo'
+})
+    </script>
+    <body>
+      <div class="preloader">
+  <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <path fill="#fc7905"
+      d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+    </path>
+  </svg>
+</div>
+    <!--<style>body{background-image: url("{% static 'img/temnyy-fon-tekstura-buka-hd.jpg'%}")}</style>-->
+
+            {% block content %}
+
+            {% endblock %}
+    </body>
+
+        <script  src="{% static 'js/jq.js'%}"></script>
+        <script  src="{% static 'js/hammer.js'%}"></script>
+        <script  src="{% static 'js/maskedinput.min.js' %}"></script>
+        <script  src="{% static 'js/bg/TweenLite.min.js' %}"></script>
+        <script  src="{% static 'js/bg/EasePack.min.js' %}"></script>
+        <script  src="{% static 'js/bg/mouseevents.js'%}"></script>
+        <script  src="{% static 'js/control.js'%}"></script>
+        <script  src="{% static 'js/Scripts.js' %}"></script>
+        <script  src="{% static 'js/slimselect.js' %}"></script>
+        <script>
+          $(window).on('load', function() {
+          $('.preloader').fadeOut().end().delay(350).fadeOut('slow');
+        });
+        </script>
+
+        <script>
+
+                  var select = new SlimSelect({
+	                     select: '#demo',
+                      showSearch: false
+                  })
+
+                  select.selected();
+
+                // select.selected()
+        </script>
+
+</html>

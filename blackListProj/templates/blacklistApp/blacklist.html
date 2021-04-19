@@ -1,0 +1,130 @@
+{%extends 'blacklistApp/base.html'%}
+{% load static %}
+{% block title %}
+{% endblock %}
+
+    {% block content %}
+        <header_bar id="header_bar" >
+              <a href="{% url 'logout'%}?next={{request.path}}" id="abonent_logout1" >Выйти</a>
+        </header_bar>
+        <sidebar class="flex__jcontent_start" id ="sidebar">
+            <div id="logo" class="main_flex__nowrap flex__jcontent_start flex__align-items_center">DARKCHECK</div>
+
+            <nav class="main_nav">
+                     <li class="">
+                         <a href="/" class="navigate">Мой Kабинет</a>
+                     </li>
+                    <li class="selected ">
+                             <a href="{{ blackclient.get_absolute_url2 }}" class="navigate">Мой ЧС</a>
+                    </li>
+                    <li class="">
+                             <a href="#" class="navigate">Найти</a>
+                    </li>
+                    <li class="">
+                             <a href="#" class="navigate">Обратная связь</a>
+                    </li>
+
+            </nav>
+
+        </sidebar>
+<!--########################3-->
+<main>
+
+ <div class="container demo" style="z-index: 1;">
+     <div class="content">
+         <div id="large-header" class="large-header">
+             <canvas id="demo-canvas"></canvas>
+         </div>
+     </div>
+ </div>
+<div class="blacklist_container">
+    <div class="add_client_box">
+    <div class="add_client_container">
+
+            <form method="POST" action="create/" >
+        {% csrf_token %}
+                {{form}}
+                <div id="form_box1">
+                    <p>
+                        <label>Имя:</label>
+                        <input id="name_input" class="form_input" type="text" name="name" required/>
+                    </p>
+                    <p>
+                        <label>Телефон:</label>
+                        <input id="phone_input"  class="form_input" type="text" name="phone" required/>
+                    </p>
+                        <input id ="submit-button" class ="a_button" type="submit"  value="Добавить" >
+                </div>
+                <div id="form_box2">
+                    <label>Comment:</label>
+                    <!--<input id="comment_input"  type="text" name="comment" required/>-->
+                    <textarea rows="5" cols="5" wrap="hard"  name="comment" required></textarea>
+                    <div id="tags-select">
+                        <select id="demo" name="tags[]" multiple="multiple" method="post">
+                            {%for itemtag in tags_list%}
+                            <option value={{itemtag.tag_name}}>{{itemtag.tag_name}}</option>
+                            {%endfor%}
+
+                        </select>
+                    </div>
+                </div>
+
+    </form>
+
+</div>
+        <!--<div>-->
+            <!--<p>-->
+            <!--<label>Comment:</label>-->
+            <!--<input id="comment_input" class="form_input" type="text" name="comment" />-->
+        <!--</p>-->
+        <!--<input id ="add_button2" type="submit"  value="ДОБАВИТЬ" >-->
+        <!--</div>-->
+</div>
+
+        <div class="blacklist_box">
+            <div class="bl_header"><h3>DARKCHECK</h3></div>
+            {% if user.is_authenticated %}
+
+            {% for itemclient in blackclientlist  %}
+                {% for ii in itemclient.get_abonents_that_added2  %}
+                    {%if ii.username == user.username %}
+            <div class="blacklist_item" >
+                 <div id="client_name">{{itemclient.name}}</div>
+                <div id="client_phone">{{itemclient.phone}}</div>
+                <div id="client_rate">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 336.4 336.4" style="enable-background:new 0 0 336.4 336.4;" xml:space="preserve">
+			<path style="fill:#c77f40;" d="M329.2,63h-36.4V35c0-3.6-3.2-6.8-6.8-6.8H6.8C3.2,28.2,0,31.4,0,35v180c0,3.6,3.2,6.8,6.8,6.8
+				h36.4v28c0,3.6,3.2,6.8,6.8,6.8h35.2v44.8c0,2.4,1.6,4.8,3.6,6c0.8,0.8,2,0.8,3.2,0.8s2.8-0.4,4-1.2l73.2-50.4h160.4
+				c3.6,0,6.8-3.2,6.8-6.8v-180C336,65.8,332.8,63,329.2,63z M43.2,69.8v138.4H13.6V41.8h265.6V63H50C46.4,63,43.2,66.2,43.2,69.8z
+				 M322.4,243H166.8c-1.2,0-2.8,0.4-4,1.2l-64,44.4v-38.8c0-3.6-3.2-6.8-6.8-6.8H56.8V76.6h265.6V243z"/>
+			<path style="fill:#fff;" d="M105.2,120.6H274c3.6,0,6.8-3.2,6.8-6.8c0-4-3.2-6.8-6.8-6.8H105.2c-3.6,0-6.8,3.2-6.8,6.8
+				C98.4,117.4,101.6,120.6,105.2,120.6z"/>
+			<path style="fill:#fff;" d="M105.2,163.8H274c3.6,0,6.8-3.2,6.8-6.8c0-3.6-3.2-6.8-6.8-6.8H105.2c-3.6,0-6.8,3.2-6.8,6.8
+				C98.4,160.6,101.6,163.8,105.2,163.8z"/>
+			<path style="fill:#fff;" d="M105.2,207h94.4c3.6,0,6.8-3.2,6.8-6.8c0-4-2.8-6.8-6.8-6.8h-94.4c-3.6,0-6.8,3.2-6.8,6.8
+				S101.6,207,105.2,207z"/>
+                    </svg>
+</svg>
+
+                    {{itemclient.get_rate}}</div>
+                <div id="client_comments_count">{{comment.count}}</div>
+
+                <div id="details">
+                <a class="a_button" href="{{itemclient.get_absolute_url}}">Подробнее</a>
+                </div>
+            </div>
+                    {%endif%}
+                {% endfor %}
+            {% endfor %}
+
+   <!--{% else %}-->
+     <!--<li><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>-->
+   <!--{% endif %}-->
+        </div>
+    </div>
+</div>
+        </main>
+
+{% endblock %}
+

@@ -1,0 +1,68 @@
+{%extends 'blacklistApp/base.html'%}
+{% load static %}
+{% block title %}
+{% endblock %}
+
+    {% block content %}
+        <header_bar id="header_bar" >
+              <a href="{% url 'logout'%}?next={{request.path}}" id="abonent_logout1" >Выйти</a>
+        </header_bar>
+        <sidebar class="flex__jcontent_start" id ="sidebar">
+            <div id="logo" class="main_flex__nowrap flex__jcontent_start flex__align-items_center">DARKCHECK</div>
+
+            <nav class="main_nav">
+                     <li class="">
+                         <a href="/" class="navigate">Мой кабинет</a>
+                     </li>
+                    <li class="selected ">
+                             <a href="{{ blackclient.get_absolute_url2 }}" class="navigate">Мой ЧС</a>
+                    </li>
+                    <li class="">
+                             <a href="#" class="navigate">Найти</a>
+                    </li>
+                    <li class="">
+                             <a href="#" class="navigate">Обратная связь</a>
+                    </li>
+
+            </nav>
+
+        </sidebar>
+<!--########################3-->
+<main>
+
+ <div class="container demo" style="z-index: 1;">
+     <div class="content">
+         <div id="large-header" class="large-header">
+             <canvas id="demo-canvas"></canvas>
+         </div>
+     </div>
+ </div>
+<div class="blacklist_container">
+    <div class="add_client_box">
+    <div class="add_client_container">
+
+</div>
+        <!--<div>-->
+            <!--<p>-->
+            <!--<label>Comment:</label>-->
+            <!--<input id="comment_input" class="form_input" type="text" name="comment" />-->
+        <!--</p>-->
+        <!--<input id ="add_button2" type="submit"  value="ДОБАВИТЬ" >-->
+        <!--</div>-->
+</div>
+
+        <div class="blacklist_box">
+            <div class="bl_header"><h3>ВЫ УСПЕШНО ДОБАВИЛИ КЛИЕНТА В СПИСОК!</h3></div>
+            <div class="bl_header"><h3>{{blackclient.name}}</h3></div>
+             <div class="bl_header"><h3>{{blackclient.phone}}</h3></div>
+            <div class="bl_header">{% for itag in tags%}
+            {{itag}}<br>
+        {%endfor%}</div>
+
+
+        </div>
+    </div>
+</div>
+        </main>
+{% endblock %}
+

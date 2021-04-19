@@ -1,0 +1,47 @@
+{%extends 'blacklistApp/base.html'%}
+{% load static %}
+{% block title %}
+{% endblock %}
+
+    {% block content %}
+        <sidebar class="flex__jcontent_start" id ="sidebar">
+            <div id="logo" class="main_flex__nowrap flex__jcontent_start flex__align-items_center"></div>
+
+            <nav class="main_nav">
+                     <li class="">
+                         <a href="/" class="navigate">Мой кабинет</a>
+                     </li>
+                    <li class="selected ">
+                             <a href="blacklist" class="navigate">Мой ЧС</a>
+                    </li>
+                    <li class="">
+                             <a href="#" class="navigate">Найти</a>
+                    </li>
+                    <li class="">
+                             <a href="#" class="navigate">Обратная связь</a>
+                    </li>
+
+            </nav>
+
+        </sidebar>
+<!--########################3-->
+        <main>
+        <div class="work_list main_flex flex__jcontent_stxart">
+            {% if user.is_authenticated  and user.is_superuser%}
+
+      <ul>
+            {% for itemclient in blackclientlist  %}
+                {% for ii in itemclient.get_abonents_that_added2  %}
+                    {%if ii.username == user.username %}
+                        <li>{{itemclient.phone}}{{itemclient.name}} {{itemclient.abonent_added.count}}</li>
+                    {%endif%}
+                {% endfor %}
+            {% endfor %}
+</ul>
+   <!--{% else %}-->
+     <!--<li><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>-->
+   {% endif %}
+        </div>
+        </main>
+{% endblock %}
+
