@@ -1,0 +1,5 @@
+/blackVENV
+.idea
+blackListProj/node_modules/
+blackListProj/static/
+blackListProj/blacklistApp/migrations/
